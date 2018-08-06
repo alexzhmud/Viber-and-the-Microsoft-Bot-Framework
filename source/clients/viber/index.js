@@ -16,14 +16,14 @@ const toYAML = require('winston-console-formatter');
 require('dotenv').config();
 
 // config items
-const ViberBotName = 'MBF Connector';
-const ViberBotImageUrl = 'https://raw.githubusercontent.com/devrelv/drop/master/151-icon.png';
+const ViberBotName = 'mySafety';
+const ViberBotImageUrl = 'https://raw.githubusercontent.com/alexzhmud/mySafetyBot/master/mySafety_viber.png';
 const ViberPublicAccountAccessTokenKey = '47e49dd4afa7d7c2-e43b057046313cb9-d02776ffc8c64040';   // ToDo: Replace with your Viber Public Account access token
 
 const MicrosoftBotDirectLineClientName = 'ViberBotConnector';
 const MicrosoftBotDirectLineSecret = 'b_nHNtOE7tI.cwA.SZQ.2DQMfUjJtXQaKulSGcXTv4jok0VA9Bhhk7wOs4f6BxU';           // ToDo: Replace with your Microsoft Bot Framework DirectLine secret
 
-const WebServerUrl = 'https://YOUR_BOT_SITE_URL';                     // ToDo: This is the URL where the Viber bot is hosted. Has to be an external URL
+const WebServerUrl = 'https://mysafetyviberbot.azurewebsites.net';                     // ToDo: This is the URL where the Viber bot is hosted. Has to be an external URL
 const WebServerPort = 8080;                                             // ToDo: This is the port of the Viber bot. 
 
 
