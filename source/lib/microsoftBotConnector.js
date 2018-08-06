@@ -25,7 +25,7 @@ const MessageActivity = require(__dirname + '/activity/messageActivity.js').Mess
 // config items
 const defaultPollInterval = 1000;
 const defaultDirectLineClientName = 'ViberBotConnector';
-const defaultDirectLineSecret = 'xxxxxxxxxxxxxxxxxxxxx'; // ToDo: Replace with your Microsoft Bot Framework DirectLine secret
+const defaultDirectLineSecret = 'b_nHNtOE7tI.cwA.SZQ.2DQMfUjJtXQaKulSGcXTv4jok0VA9Bhhk7wOs4f6BxU'; // ToDo: Replace with your Microsoft Bot Framework DirectLine secret
 
 class MicrosoftBot extends EventEmitter {
     constructor(logger, platform, options) {
