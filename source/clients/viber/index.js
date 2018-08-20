@@ -23,8 +23,8 @@ const ViberPublicAccountAccessTokenKey = '47e49dd4afa7d7c2-e43b057046313cb9-d027
 const MicrosoftBotDirectLineClientName = 'ViberBotConnector';
 const MicrosoftBotDirectLineSecret = 'b_nHNtOE7tI.cwA.SZQ.2DQMfUjJtXQaKulSGcXTv4jok0VA9Bhhk7wOs4f6BxU';           // ToDo: Replace with your Microsoft Bot Framework DirectLine secret
 
-const WebServerUrl = 'https://mysafetyviberbot.azurewebsites.net/api/messages';                     // ToDo: This is the URL where the Viber bot is hosted. Has to be an external URL
-const WebServerPort = 8080;                                             // ToDo: This is the port of the Viber bot. 
+const WebServerUrl = 'https://mysafetyviberbot.azurewebsites.net';                     // ToDo: This is the URL where the Viber bot is hosted. Has to be an external URL
+const WebServerPort = 8039;                                             // ToDo: This is the port of the Viber bot. 
 
 
 function createLogger() {
